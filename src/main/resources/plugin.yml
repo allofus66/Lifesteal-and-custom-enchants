@@ -1,0 +1,33 @@
+name: SharkLifesteal-Enchants
+version: 1.0.0
+main: me.sharklifesteal.SharkLifesteal
+api-version: '1.20'
+author: SharkLifesteal
+commands:
+  enchant:
+    description: Apply a custom enchant to held item
+    usage: /enchant <enchant> [level]
+    permission: sharklifesteal.enchant
+  enchantlist:
+    description: List available custom enchants
+  withdraw:
+    description: Withdraw hearts into heart crystals
+    usage: /withdraw <amount>
+    permission: sharklifesteal.withdraw
+  custom:
+    description: Opens custom enchant GUI
+    permission: sharklifesteal.custom
+  sharklifesteal:
+    description: Admin command
+    permission: sharklifesteal.admin
+permissions:
+  sharklifesteal.enchant:
+    default: op
+  sharklifesteal.lifesteal:
+    default: true
+  sharklifesteal.withdraw:
+    default: true
+  sharklifesteal.custom:
+    default: true
+  sharklifesteal.admin:
+    default: op

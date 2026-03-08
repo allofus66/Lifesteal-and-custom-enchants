@@ -1,0 +1,25 @@
+lifesteal:
+  enabled: true
+  percent_heal: 25
+  max_heal: 10
+  pvp: true
+  pve: true
+  cooldown_ms: 0
+  kill_reward_hearts: 2
+
+withdraw:
+  enabled: true
+  max_per_day: 20
+  cooldown: 300
+  item: NETHER_STAR
+
+enchants:
+  GUI_enabled: true
+  max_level: 5
+  XP_cost_per_level: 5
+  blacklisted_items:
+    - NETHER_STAR
+    - BEDROCK
+
+combat:
+  particles: true
