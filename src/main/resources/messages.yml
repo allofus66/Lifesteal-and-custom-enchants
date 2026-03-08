@@ -1,0 +1,23 @@
+no_permission: "&cYou do not have permission."
+player_not_found: "&cPlayer not found."
+reload_success: "&aSharkLifesteal configuration reloaded."
+
+enchant_usage: "&eUsage: /enchant <enchant> [level]"
+enchant_not_found: "&cCustom enchant not found."
+enchant_invalid_item: "&cThis item cannot receive that enchant."
+enchant_applied: "&6You applied &e{enchant} {level} &6to your item!"
+enchant_cannot_pay: "&cYou do not have enough XP/items for this enchant."
+enchant_max_level: "&cThis enchant is already at max level."
+
+gui_disabled: "&cCustom enchant GUI is disabled."
+
+lifesteal_heal: "&aYou healed &c{amount} &ahealth!"
+
+withdraw_usage: "&eUsage: /withdraw <hearts>"
+withdraw_success: "&cYou withdrew &e{amount} &chearts!"
+withdraw_cooldown: "&cWithdraw is on cooldown."
+withdraw_daily_limit: "&cYou reached your daily withdraw limit."
+withdraw_not_enough: "&cYou do not have enough bonus hearts."
+withdraw_min_health: "&cYou cannot reduce your max health that low."
+withdraw_disabled: "&cWithdraw is disabled."
+withdraw_invalid: "&cInvalid withdraw request."

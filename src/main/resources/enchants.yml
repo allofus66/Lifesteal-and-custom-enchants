@@ -1,0 +1,64 @@
+enchants:
+  vampiric:
+    display: "Vampiric"
+    max_level: 5
+    chance: 1.0
+    value: 0.15
+    rarity: RARE
+    item_types: ["SWORD", "AXE"]
+    cost:
+      type: XP
+      amount: 5
+  sharpness_plus:
+    display: "Sharpness+"
+    max_level: 5
+    chance: 1.0
+    value: 1.25
+    rarity: RARE
+    item_types: ["SWORD", "AXE"]
+    cost:
+      type: XP
+      amount: 4
+  firebrand:
+    display: "Firebrand"
+    max_level: 3
+    chance: 0.35
+    value: 4
+    rarity: EPIC
+    item_types: ["SWORD", "AXE"]
+    cost:
+      type: ITEM
+      material: BLAZE_POWDER
+      amount: 8
+  soulbound:
+    display: "Soulbound"
+    max_level: 1
+    chance: 1.0
+    value: 1
+    rarity: LEGENDARY
+    item_types: []
+    cost:
+      type: ITEM
+      material: TOTEM_OF_UNDYING
+      amount: 1
+  wither_touch:
+    display: "Wither Touch"
+    max_level: 3
+    chance: 0.30
+    value: 4
+    rarity: EPIC
+    item_types: ["SWORD", "AXE"]
+    cost:
+      type: XP
+      amount: 8
+  lifesteal_boost:
+    display: "Lifesteal Boost"
+    max_level: 3
+    chance: 1.0
+    value: 0.08
+    rarity: LEGENDARY
+    item_types: ["SWORD", "AXE"]
+    cost:
+      type: ITEM
+      material: GHAST_TEAR
+      amount: 6
